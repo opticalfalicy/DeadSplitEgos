@@ -1,0 +1,62 @@
+
+
+body{
+    background-color: 	#fffaf0;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("a3074179060_16.jpg");
+
+    /* Full height */
+    height: 110%; 
+
+    width: auto;
+    
+   
+
+    /* Center and scale the image nicely */
+
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+} 
+
+
+.links{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 210px;
+    font-family: Bradley Hand, cursive;
+}
+
+.music-link{
+    padding-left: 20px;
+}
+
+.shows{
+    padding-left: 18px;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: #D6B0AF;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(173, 144, 143);
+}
+
+
