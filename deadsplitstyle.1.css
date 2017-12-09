@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 body{
     background-color: 	#fffaf0;
@@ -6,45 +8,52 @@ body{
 
 
 body, html {
+    margin: 0;
+    padding: 0;
     height: 100%;
+    width: 100%;
 }
 
 .bg { 
-    /* The image used */
-    background-image: url("a3074179060_16.jpg");
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    background: url("a3074179060_16.jpg") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
 
-    /* Full height */
-    height: 110%; 
-
-    width: auto;
     
    
 
-    /* Center and scale the image nicely */
+ 
 
-    -webkit-background-size: 100%; 
+    /*-webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
     background-size: 100%; 
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
-    background-size: cover;
+    background-size: cover;*/
 } 
 
 
 .links{
     padding-left: 450px;
     padding-right: 450px;
-    padding-top: 210px;
-    font-family: Bradley Hand, cursive;
+    padding-top: 135px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 170%;
 }
 
 .music-link{
     padding-left: 20px;
+    margin: 0;
 }
 
 .shows{
+    margin: 0;
     padding-left: 18px;
     color: red;
 }
@@ -59,4 +68,98 @@ a:hover{
     color: rgb(173, 144, 143);
 }
 
+/*Responsive */
 
+@media screen and (min-width: 770px) and (max-width: 1024px){
+    .bg{
+        height: 105%;
+        width: 50%;
+    }
+
+    .links{
+        padding-left: 440px;
+        padding-top: 203px;
+        font-size: 265%;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px){
+    .bg{
+        height: 150%;
+        width: 150%;
+    }
+
+    .links{
+        padding-left: 450px;
+        padding-top: 203px;
+        font-size: 265%;
+    }
+}
+
+@media screen and (min-width: 413px) and (max-width: 414px){
+    
+        .bg{
+            display: flex;
+            height: 270%;
+            width: 280%;
+            margin: 0;
+        }
+    
+        .links{
+            padding-left: 460px;
+            padding-right: 0;
+            padding-top: 315px;
+            font-size: 270%;
+        }
+    
+    }
+
+@media screen and (min-width: 380px) and (max-width: 412px){
+
+    .bg{
+        display: flex;
+        height: 285%;
+        width: 290%;
+        margin: 0;
+    }
+
+    .links{
+        padding-left: 465px;
+        padding-right: 0;
+        padding-top: 315px;
+        font-size: 340%;
+    }
+
+}
+
+@media screen and (min-width: 370px) and (max-width: 375px){
+    
+    .bg{
+        height: 310%;
+        width: 310%;
+    }
+
+    .links{
+        padding-left: 455px;
+        padding-top: 325px;
+        font-size: 290%;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .bg{
+        display: flex;
+        height: 265%;
+        width: 270%;
+        margin: 0;
+    }
+
+    .links{
+        padding-left: 365px;
+        padding-right: 0;
+        padding-top: 240px;
+        font-size: 265%;
+    }
+
+}
