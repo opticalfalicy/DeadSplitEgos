@@ -14,6 +14,8 @@ body, html {
     width: 100%;
 }
 
+/* Background */
+
 .bg { 
     height: 100%;
     width: 50%;
@@ -23,24 +25,21 @@ body, html {
     top: 0;
     background-size: cover;
 
-    
-   
-
- 
-
-    /*-webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover;*/
 } 
 
+/* Page Links */
+a{
+    text-decoration: none;
+    color: #D6B0AF;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(173, 144, 143);
+}
 
 .links{
-    padding-left: 450px;
+    padding-left: 430px;
     padding-right: 450px;
     padding-top: 135px;
     font-family: 'Indie Flower', cursive;
@@ -58,17 +57,33 @@ body, html {
     color: red;
 }
 
-a{
-    text-decoration: none;
-    color: #D6B0AF;
+
+
+/* Social Media Links */
+
+.social-row{
+
+    font-family: 'Indie Flower', cursive;
+    font-size: 80%;
+    padding-top: 330%;
+    margin: 0;
+    text-align: center;
 }
 
-a:hover{
-    text-decoration: none;
-    color: rgb(173, 144, 143);
+#fb{
+    margin: 0;
 }
 
-/*Responsive */
+#twt{
+    margin: 0;
+}
+
+#insta{
+    margin: 0;
+}
+
+
+/* Media Queries */
 
 @media screen and (min-width: 770px) and (max-width: 1024px){
     .bg{
@@ -160,6 +175,10 @@ a:hover{
         padding-right: 0;
         padding-top: 240px;
         font-size: 265%;
+    }
+
+    .social-row{
+        padding-top: 388%;
     }
 
 }
