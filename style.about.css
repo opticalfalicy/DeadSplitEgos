@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+body{
+    background-color: 	#fffaf0;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.bg { 
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background: url("aboutbg.jpg") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+
+} 
+
+
+.links{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 180px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.music-link{
+    padding-left: 20px;
+}
+
+.shows{
+    padding-left: 18px;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: #4a0200;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(173, 144, 143);
+}
+
+h2{
+    margin-bottom: -30px;
+}
+
+.home-row{
+    padding: 25px 0 0 585px;   
+    font-family: 'Indie Flower', cursive;
+    font-size: 180%;
+    color: rgb(247, 209, 209);
+}
+
+.music-row{
+    padding-top: 0px;
+    padding-left: 585px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 180%;
+    color: rgb(247, 209, 209);
+}
+
+/* Bio */
+
+
+.bio-row{
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: #fffaf024;
+    opacity: .9;
+}
+
+#about{
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(144, 18, 14);
+    font-size: 230%;
+}
+
+#bio{
+    padding-top: 75px;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(247, 209, 209);
+    font-family: 'Itim', cursive;
+    font-weight: 800;
+}
+
+
+@media screen and (min-width:770px) and (max-width: 1024px){
+    
+    
+    
+        .bg{
+            width: 100%;
+        }
+        .home-row{
+            padding: 0 0 0 440px;
+        }
+        .music-row{
+            padding-left: 440px;
+        }
+    }
+
+@media screen and (min-width:420px) and (max-width: 768px){
+    
+    
+    
+        .bg{
+            width: 100%;
+        }
+        .home-row{
+            padding: 0 0 0 335px;
+        }
+        .music-row{
+            padding-left: 335px;
+        }
+    }
+
+@media screen and (min-width:413px) and (max-width: 414px){
+    
+    
+    .bg{
+        background: url(about-mobile-bg.jpg) no-repeat 50% 50%;
+        background-color: black;
+        width: 280%;
+        height: 280%;
+    }
+
+    .h2{
+        margin-bottom: -30px;
+    }
+
+    a{
+        color: rgb(224, 64, 64);
+    }
+    .home-row{
+        padding: 180px 0 0 420px;
+        font-size: 420%;
+        margin-bottom: -10%;
+        color: rgb(238, 112, 112);
+    }
+ 
+    .music-row{
+        padding-left: 420px;
+        font-size: 420%;
+        color: rgb(238, 112, 112);
+    }
+
+    .bio-row{
+        margin-top: 105px;
+        background-color: rgba(175, 175, 175, 0.45);
+        opacity: 1;
+    }
+
+    #about{
+        font-size: 615%;
+        color: rgb(238, 112, 112);
+        
+    }
+
+    #bio{
+        padding-top: 130px;
+        font-size: 240%;
+    }
+
+
+}
+
+@media screen and (min-width:380px) and (max-width: 412px){
+    
+    
+    
+    .bg{
+        background: url(about-mobile-bg.jpg) no-repeat 50% 50%;
+        background-color: black;
+        width: 280%;
+        height: 280%;
+    }
+
+    .h2{
+        margin-bottom: -30px;
+    }
+
+    a{
+        color: rgb(224, 64, 64);
+    }
+    .home-row{
+        padding: 180px 0 0 420px;
+        font-size: 420%;
+        margin-bottom: -10%;
+        color: rgb(238, 112, 112);
+    }
+
+    .music-row{
+        padding-left: 420px;
+        font-size: 420%;
+        color: rgb(238, 112, 112);
+    }
+
+    .bio-row{
+        margin-top: 105px;
+        background-color: rgba(175, 175, 175, 0.45);
+        opacity: 1;
+    }
+
+    #about{
+        font-size: 615%;
+        color: rgb(238, 112, 112);
+        
+    }
+
+    #bio{
+        padding-top: 100px;
+        font-size: 240%;
+    }
+
+
+}
+
+@media screen and (min-width: 365px) and (max-width: 375px){
+    
+    
+    
+    .bg{
+        background: url(about-mobile-bg.jpg) no-repeat 50% 50%;
+        background-color: black;
+        width: 295%;
+        height: 310%;
+    }
+
+    .h2{
+        margin-bottom: -30px;
+    }
+
+    a{
+        color: rgb(224, 64, 64);
+    }
+    .home-row{
+        padding: 180px 0 0 420px;
+        font-size: 420%;
+        margin-bottom: -10%;
+        color: rgb(238, 112, 112);
+    }
+
+    .music-row{
+        padding-left: 420px;
+        font-size: 420%;
+        color: rgb(238, 112, 112);
+    }
+
+    .bio-row{
+        margin-top: 105px;
+        background-color: rgba(175, 175, 175, 0.45);
+        opacity: 1;
+    }
+
+    #about{
+        font-size: 615%;
+        color: rgb(238, 112, 112);
+        
+    }
+
+    #bio{
+        padding-top: 100px;
+        font-size: 240%;
+    }
+
+
+}
+
+@media screen and (max-width: 360px){
+
+
+
+    .bg{
+        background: url(about-mobile-bg.jpg) no-repeat 50% 50%;
+        background-color: black;
+        width: 320%;
+        height: 325%;
+    }
+
+    .h2{
+        margin-bottom: 0;
+    }
+
+    a{
+        color: rgb(224, 64, 64);
+    }
+    .home-row{
+        padding: 200px 0 0 315px;
+        font-size: 420%;
+        margin-bottom: -10%;
+        color: rgb(238, 112, 112);
+    }
+
+    .music-row{
+        padding-left: 315px;
+        font-size: 420%;
+        color: rgb(238, 112, 112);
+    }
+
+    .bio-row{
+        margin-top: 105px;
+        background-color: rgba(175, 175, 175, 0.45);
+        opacity: 1;
+    }
+
+    #about{
+        font-size: 615%;
+        color: rgb(238, 112, 112);
+        
+    }
+
+    #bio{
+        padding-top: 100px;
+        font-size: 240%;
+    }
+
+
+}
+

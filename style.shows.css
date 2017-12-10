@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body{
+    background-color: 	#fffaf0;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.bg { 
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    background: url("a3074179060_16notite.png") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+
+} 
+
+
+.links{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 180px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.music-link{
+    padding-left: 20px;
+}
+
+.shows{
+    padding-left: 18px;
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: #D6B0AF;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(173, 144, 143);
+}
+
+h2{
+    margin-bottom: -30px;
+}
+
+.home-row{
+    padding: 55px 0 0 445px;   
+    font-family: 'Indie Flower', cursive;
+    font-size: 150%;
+    color: #D6B0AF;
+}
+
+.music-row{
+    padding-top: 0px;
+    padding-left: 445px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 150%;
+    color: #D6B0AF;
+}
+
+.date-row{
+    padding-top: 30px;
+}
+
+@media screen and (min-width:770px) and (max-width: 1024px){
+    
+    
+    
+        .bg{
+            width: 100%;
+        }
+        .home-row{
+            padding: 0 0 0 440px;
+        }
+        .music-row{
+            padding-left: 440px;
+        }
+    }
+
+@media screen and (min-width:420px) and (max-width: 768px){
+    
+    
+    
+        .bg{
+            width: 100%;
+        }
+        .home-row{
+            padding: 0 0 0 335px;
+        }
+        .music-row{
+            padding-left: 335px;
+        }
+    }
+
+@media screen and (min-width:413px) and (max-width: 414px){
+    
+    
+    
+        .bg{
+            width: 150%;
+        }
+        .home-row{
+            padding: 0 0 0 260px;
+        }
+        .music-row{
+            padding-left: 260px;
+        }
+    }
+
+@media screen and (min-width:380px) and (max-width: 412px){
+    
+    
+    
+        .bg{
+            width: 135%;
+        }
+        .home-row{
+            padding: 0 0 0 240px;
+        }
+        .music-row{
+            padding-left: 240px;
+        }
+    }
+
+@media screen and (min-width: 365px) and (max-width: 375px){
+    
+    
+    
+        .bg{
+            width: 152%;
+        }
+        .home-row{
+            padding: 0 0 0 240px;
+        }
+        .music-row{
+            padding-left: 240px;
+        }
+    }
+
+@media screen and (max-width: 360px){
+
+
+
+    .bg{
+        width: 152%;
+    }
+    .home-row{
+        padding: 0 0 0 235px;
+    }
+    .music-row{
+        padding-left: 235px;
+    }
+}
+
